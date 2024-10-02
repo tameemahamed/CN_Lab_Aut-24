@@ -1,0 +1,184 @@
+version 3
+run Lab5_1-0-20241001-14:41:38-10556
+attr configname Lab5_1
+attr datetime 20241001-14:41:38
+attr datetimef 20241001-144138
+attr experiment Lab5_1
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Bot_Builders_net5
+attr processid 10556
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network Bot_Builders_net5
+config record-eventlog true
+config *.node_Bot_Builders[*].limit 10
+config *.node_Bot_Builders[*].source 5
+config *.node_Bot_Builders[*].destination 0
+
+par Bot_Builders_net5.node_Bot_Builders[0].gate$o[0].channel typename "\"Bot_Builders_net5.Channel\""
+par Bot_Builders_net5.node_Bot_Builders[0].gate$o[0].channel disabled false
+attr mutable ""
+par Bot_Builders_net5.node_Bot_Builders[0].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net5.node_Bot_Builders[1].gate$o[0].channel typename "\"Bot_Builders_net5.Channel\""
+par Bot_Builders_net5.node_Bot_Builders[1].gate$o[0].channel disabled false
+attr mutable ""
+par Bot_Builders_net5.node_Bot_Builders[1].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net5.node_Bot_Builders[1].gate$o[1].channel typename "\"Bot_Builders_net5.Channel\""
+par Bot_Builders_net5.node_Bot_Builders[1].gate$o[1].channel disabled false
+attr mutable ""
+par Bot_Builders_net5.node_Bot_Builders[1].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net5.node_Bot_Builders[2].gate$o[0].channel typename "\"Bot_Builders_net5.Channel\""
+par Bot_Builders_net5.node_Bot_Builders[2].gate$o[0].channel disabled false
+attr mutable ""
+par Bot_Builders_net5.node_Bot_Builders[2].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net5.node_Bot_Builders[1].gate$o[2].channel typename "\"Bot_Builders_net5.Channel\""
+par Bot_Builders_net5.node_Bot_Builders[1].gate$o[2].channel disabled false
+attr mutable ""
+par Bot_Builders_net5.node_Bot_Builders[1].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net5.node_Bot_Builders[4].gate$o[0].channel typename "\"Bot_Builders_net5.Channel\""
+par Bot_Builders_net5.node_Bot_Builders[4].gate$o[0].channel disabled false
+attr mutable ""
+par Bot_Builders_net5.node_Bot_Builders[4].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net5.node_Bot_Builders[3].gate$o[0].channel typename "\"Bot_Builders_net5.Channel\""
+par Bot_Builders_net5.node_Bot_Builders[3].gate$o[0].channel disabled false
+attr mutable ""
+par Bot_Builders_net5.node_Bot_Builders[3].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net5.node_Bot_Builders[4].gate$o[1].channel typename "\"Bot_Builders_net5.Channel\""
+par Bot_Builders_net5.node_Bot_Builders[4].gate$o[1].channel disabled false
+attr mutable ""
+par Bot_Builders_net5.node_Bot_Builders[4].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net5.node_Bot_Builders[4].gate$o[2].channel typename "\"Bot_Builders_net5.Channel\""
+par Bot_Builders_net5.node_Bot_Builders[4].gate$o[2].channel disabled false
+attr mutable ""
+par Bot_Builders_net5.node_Bot_Builders[4].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net5.node_Bot_Builders[5].gate$o[0].channel typename "\"Bot_Builders_net5.Channel\""
+par Bot_Builders_net5.node_Bot_Builders[5].gate$o[0].channel disabled false
+attr mutable ""
+par Bot_Builders_net5.node_Bot_Builders[5].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net5.node_Bot_Builders[5].gate$o[1].channel typename "\"Bot_Builders_net5.Channel\""
+par Bot_Builders_net5.node_Bot_Builders[5].gate$o[1].channel disabled false
+attr mutable ""
+par Bot_Builders_net5.node_Bot_Builders[5].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net5.node_Bot_Builders[6].gate$o[0].channel typename "\"Bot_Builders_net5.Channel\""
+par Bot_Builders_net5.node_Bot_Builders[6].gate$o[0].channel disabled false
+attr mutable ""
+par Bot_Builders_net5.node_Bot_Builders[6].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net5.node_Bot_Builders[5].gate$o[2].channel typename "\"Bot_Builders_net5.Channel\""
+par Bot_Builders_net5.node_Bot_Builders[5].gate$o[2].channel disabled false
+attr mutable ""
+par Bot_Builders_net5.node_Bot_Builders[5].gate$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net5.node_Bot_Builders[7].gate$o[0].channel typename "\"Bot_Builders_net5.Channel\""
+par Bot_Builders_net5.node_Bot_Builders[7].gate$o[0].channel disabled false
+attr mutable ""
+par Bot_Builders_net5.node_Bot_Builders[7].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net5.node_Bot_Builders[5].gate$o[3].channel typename "\"Bot_Builders_net5.Channel\""
+par Bot_Builders_net5.node_Bot_Builders[5].gate$o[3].channel disabled false
+attr mutable ""
+par Bot_Builders_net5.node_Bot_Builders[5].gate$o[3].channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net5.node_Bot_Builders[8].gate$o[0].channel typename "\"Bot_Builders_net5.Channel\""
+par Bot_Builders_net5.node_Bot_Builders[8].gate$o[0].channel disabled false
+attr mutable ""
+par Bot_Builders_net5.node_Bot_Builders[8].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net5.node_Bot_Builders[8].gate$o[1].channel typename "\"Bot_Builders_net5.Channel\""
+par Bot_Builders_net5.node_Bot_Builders[8].gate$o[1].channel disabled false
+attr mutable ""
+par Bot_Builders_net5.node_Bot_Builders[8].gate$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net5.node_Bot_Builders[9].gate$o[0].channel typename "\"Bot_Builders_net5.Channel\""
+par Bot_Builders_net5.node_Bot_Builders[9].gate$o[0].channel disabled false
+attr mutable ""
+par Bot_Builders_net5.node_Bot_Builders[9].gate$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net5.node_Bot_Builders[0] typename "\"Bot_Builders_node4\""
+par Bot_Builders_net5.node_Bot_Builders[0] sendMsgOnInit false
+par Bot_Builders_net5.node_Bot_Builders[0] limit 10
+par Bot_Builders_net5.node_Bot_Builders[0] source 5
+par Bot_Builders_net5.node_Bot_Builders[0] destination 0
+par Bot_Builders_net5.node_Bot_Builders[1] typename "\"Bot_Builders_node4\""
+par Bot_Builders_net5.node_Bot_Builders[1] sendMsgOnInit false
+par Bot_Builders_net5.node_Bot_Builders[1] limit 10
+par Bot_Builders_net5.node_Bot_Builders[1] source 5
+par Bot_Builders_net5.node_Bot_Builders[1] destination 0
+par Bot_Builders_net5.node_Bot_Builders[2] typename "\"Bot_Builders_node4\""
+par Bot_Builders_net5.node_Bot_Builders[2] sendMsgOnInit false
+par Bot_Builders_net5.node_Bot_Builders[2] limit 10
+par Bot_Builders_net5.node_Bot_Builders[2] source 5
+par Bot_Builders_net5.node_Bot_Builders[2] destination 0
+par Bot_Builders_net5.node_Bot_Builders[3] typename "\"Bot_Builders_node4\""
+par Bot_Builders_net5.node_Bot_Builders[3] sendMsgOnInit false
+par Bot_Builders_net5.node_Bot_Builders[3] limit 10
+par Bot_Builders_net5.node_Bot_Builders[3] source 5
+par Bot_Builders_net5.node_Bot_Builders[3] destination 0
+par Bot_Builders_net5.node_Bot_Builders[4] typename "\"Bot_Builders_node4\""
+par Bot_Builders_net5.node_Bot_Builders[4] sendMsgOnInit false
+par Bot_Builders_net5.node_Bot_Builders[4] limit 10
+par Bot_Builders_net5.node_Bot_Builders[4] source 5
+par Bot_Builders_net5.node_Bot_Builders[4] destination 0
+par Bot_Builders_net5.node_Bot_Builders[5] typename "\"Bot_Builders_node4\""
+par Bot_Builders_net5.node_Bot_Builders[5] sendMsgOnInit false
+par Bot_Builders_net5.node_Bot_Builders[5] limit 10
+par Bot_Builders_net5.node_Bot_Builders[5] source 5
+par Bot_Builders_net5.node_Bot_Builders[5] destination 0
+par Bot_Builders_net5.node_Bot_Builders[6] typename "\"Bot_Builders_node4\""
+par Bot_Builders_net5.node_Bot_Builders[6] sendMsgOnInit false
+par Bot_Builders_net5.node_Bot_Builders[6] limit 10
+par Bot_Builders_net5.node_Bot_Builders[6] source 5
+par Bot_Builders_net5.node_Bot_Builders[6] destination 0
+par Bot_Builders_net5.node_Bot_Builders[7] typename "\"Bot_Builders_node4\""
+par Bot_Builders_net5.node_Bot_Builders[7] sendMsgOnInit false
+par Bot_Builders_net5.node_Bot_Builders[7] limit 10
+par Bot_Builders_net5.node_Bot_Builders[7] source 5
+par Bot_Builders_net5.node_Bot_Builders[7] destination 0
+par Bot_Builders_net5.node_Bot_Builders[8] typename "\"Bot_Builders_node4\""
+par Bot_Builders_net5.node_Bot_Builders[8] sendMsgOnInit false
+par Bot_Builders_net5.node_Bot_Builders[8] limit 10
+par Bot_Builders_net5.node_Bot_Builders[8] source 5
+par Bot_Builders_net5.node_Bot_Builders[8] destination 0
+par Bot_Builders_net5.node_Bot_Builders[9] typename "\"Bot_Builders_node4\""
+par Bot_Builders_net5.node_Bot_Builders[9] sendMsgOnInit false
+par Bot_Builders_net5.node_Bot_Builders[9] limit 10
+par Bot_Builders_net5.node_Bot_Builders[9] source 5
+par Bot_Builders_net5.node_Bot_Builders[9] destination 0
+par Bot_Builders_net5 typename "\"Bot_Builders_net5\""
+

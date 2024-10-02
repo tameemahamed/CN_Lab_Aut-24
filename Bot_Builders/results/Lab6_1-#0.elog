@@ -1,0 +1,476 @@
+SB ov 1536 ev 2 rid Lab6_1-0-20241001-14:55:56-1368
+
+E # 0 t 0 m 1 ce -1 msg -1
+MC id 1 c omnetpp::cModule t Bot_Builders_net6 n Bot_Builders_net6 cm 1
+MDC id 1 d bgb=615,604
+MC id 2 c Bot_Builders_node6 t Bot_Builders_node6 pid 1 n node_Bot_Builders[0]
+MDC id 2 d i=abstract/router
+MC id 3 c Bot_Builders_node6 t Bot_Builders_node6 pid 1 n node_Bot_Builders[1]
+MDC id 3 d i=abstract/router
+MC id 4 c Bot_Builders_node6 t Bot_Builders_node6 pid 1 n node_Bot_Builders[2]
+MDC id 4 d i=abstract/router
+MC id 5 c Bot_Builders_node6 t Bot_Builders_node6 pid 1 n node_Bot_Builders[3]
+MDC id 5 d i=abstract/router
+MC id 6 c Bot_Builders_node6 t Bot_Builders_node6 pid 1 n node_Bot_Builders[4]
+MDC id 6 d i=abstract/router
+MC id 7 c Bot_Builders_node6 t Bot_Builders_node6 pid 1 n node_Bot_Builders[5]
+MDC id 7 d i=abstract/router
+MC id 8 c Bot_Builders_node6 t Bot_Builders_node6 pid 1 n node_Bot_Builders[6]
+MDC id 8 d i=abstract/router
+MC id 9 c Bot_Builders_node6 t Bot_Builders_node6 pid 1 n node_Bot_Builders[7]
+MDC id 9 d i=abstract/router
+MC id 10 c Bot_Builders_node6 t Bot_Builders_node6 pid 1 n node_Bot_Builders[8]
+MDC id 10 d i=abstract/router
+MC id 11 c Bot_Builders_node6 t Bot_Builders_node6 pid 1 n node_Bot_Builders[9]
+MDC id 11 d i=abstract/router
+GC m 2 g 1048576 n gate$i i 0 o 0
+GC m 2 g 1572864 n gate$o i 0 o 1
+GC m 3 g 1048576 n gate$i i 0 o 0
+GC m 3 g 1572864 n gate$o i 0 o 1
+CC sm 2 sg 1572864 dm 3 dg 1048576
+CDC sm 2 sg 1572864 d ""
+CC sm 3 sg 1572864 dm 2 dg 1048576
+CDC sm 3 sg 1572864 d ""
+GC m 3 g 1048577 n gate$i i 1 o 0
+GC m 3 g 1572865 n gate$o i 1 o 1
+GC m 4 g 1048576 n gate$i i 0 o 0
+GC m 4 g 1572864 n gate$o i 0 o 1
+CC sm 3 sg 1572865 dm 4 dg 1048576
+CDC sm 3 sg 1572865 d ""
+CC sm 4 sg 1572864 dm 3 dg 1048577
+CDC sm 4 sg 1572864 d ""
+GC m 3 g 1048578 n gate$i i 2 o 0
+GC m 3 g 1572866 n gate$o i 2 o 1
+GC m 6 g 1048576 n gate$i i 0 o 0
+GC m 6 g 1572864 n gate$o i 0 o 1
+CC sm 3 sg 1572866 dm 6 dg 1048576
+CDC sm 3 sg 1572866 d ""
+CC sm 6 sg 1572864 dm 3 dg 1048578
+CDC sm 6 sg 1572864 d ""
+GC m 5 g 1048576 n gate$i i 0 o 0
+GC m 5 g 1572864 n gate$o i 0 o 1
+GC m 6 g 1048577 n gate$i i 1 o 0
+GC m 6 g 1572865 n gate$o i 1 o 1
+CC sm 5 sg 1572864 dm 6 dg 1048577
+CDC sm 5 sg 1572864 d ""
+CC sm 6 sg 1572865 dm 5 dg 1048576
+CDC sm 6 sg 1572865 d ""
+GC m 6 g 1048578 n gate$i i 2 o 0
+GC m 6 g 1572866 n gate$o i 2 o 1
+GC m 7 g 1048576 n gate$i i 0 o 0
+GC m 7 g 1572864 n gate$o i 0 o 1
+CC sm 6 sg 1572866 dm 7 dg 1048576
+CDC sm 6 sg 1572866 d ""
+CC sm 7 sg 1572864 dm 6 dg 1048578
+CDC sm 7 sg 1572864 d ""
+GC m 7 g 1048577 n gate$i i 1 o 0
+GC m 7 g 1572865 n gate$o i 1 o 1
+GC m 8 g 1048576 n gate$i i 0 o 0
+GC m 8 g 1572864 n gate$o i 0 o 1
+CC sm 7 sg 1572865 dm 8 dg 1048576
+CDC sm 7 sg 1572865 d ""
+CC sm 8 sg 1572864 dm 7 dg 1048577
+CDC sm 8 sg 1572864 d ""
+GC m 7 g 1048578 n gate$i i 2 o 0
+GC m 7 g 1572866 n gate$o i 2 o 1
+GC m 9 g 1048576 n gate$i i 0 o 0
+GC m 9 g 1572864 n gate$o i 0 o 1
+CC sm 7 sg 1572866 dm 9 dg 1048576
+CDC sm 7 sg 1572866 d ""
+CC sm 9 sg 1572864 dm 7 dg 1048578
+CDC sm 9 sg 1572864 d ""
+GC m 7 g 1048579 n gate$i i 3 o 0
+GC m 7 g 1572867 n gate$o i 3 o 1
+GC m 10 g 1048576 n gate$i i 0 o 0
+GC m 10 g 1572864 n gate$o i 0 o 1
+CC sm 7 sg 1572867 dm 10 dg 1048576
+CDC sm 7 sg 1572867 d ""
+CC sm 10 sg 1572864 dm 7 dg 1048579
+CDC sm 10 sg 1572864 d ""
+GC m 10 g 1048577 n gate$i i 1 o 0
+GC m 10 g 1572865 n gate$o i 1 o 1
+GC m 11 g 1048576 n gate$i i 0 o 0
+GC m 11 g 1572864 n gate$o i 0 o 1
+CC sm 10 sg 1572865 dm 11 dg 1048576
+CDC sm 10 sg 1572865 d ""
+CC sm 11 sg 1572864 dm 10 dg 1048577
+CDC sm 11 sg 1572864 d ""
+CMB sm 1 tm 2 m initialize(0)
+CME
+CMB sm 1 tm 3 m initialize(0)
+CME
+CMB sm 1 tm 4 m initialize(0)
+CME
+CMB sm 1 tm 5 m initialize(0)
+CME
+CMB sm 1 tm 6 m initialize(0)
+CME
+CMB sm 1 tm 7 m initialize(0)
+CM id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n tic-5-to-0 pe -1
+BS id 0 tid 0 eid 0 etid 0 c frame_BB n tic-5-to-0 sm 7 st 0 am 7 at 0 pe 0
+ES id 0 tid 0 eid 0 etid 0 c frame_BB n tic-5-to-0 sm 7 st 0 am 7 at 0 pe 0
+CME
+CMB sm 1 tm 8 m initialize(0)
+CME
+CMB sm 1 tm 9 m initialize(0)
+CME
+CMB sm 1 tm 10 m initialize(0)
+CME
+CMB sm 1 tm 11 m initialize(0)
+CME
+
+E # 1 t 0 m 7 ce 0 msg 0
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[0]
+BS id 0 tid 0 eid 0 etid 0 c frame_BB n tic-5-to-0 m 7 pe 1
+SH sm 7 sg 1572864 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c frame_BB n tic-5-to-0 sm 7 sg 1572864 st 0 am 6 ag 1048578 at 0.1 pe 1
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n tic-5-to-0 m 7 pe -1 cid 0
+
+E # 2 t 0.1 m 6 ce 1 msg 0
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[1]
+BS id 0 tid 0 eid 0 etid 0 c frame_BB n tic-5-to-0 m 6 pe 2
+SH sm 6 sg 1572865 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c frame_BB n tic-5-to-0 sm 6 sg 1572865 st 0.1 am 5 ag 1048576 at 0.2 pe 2
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n tic-5-to-0 m 6 pe -1 cid 0
+
+E # 3 t 0.2 m 5 ce 2 msg 0
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[0]
+BS id 0 tid 0 eid 0 etid 0 c frame_BB n tic-5-to-0 m 5 pe 3
+SH sm 5 sg 1572864 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c frame_BB n tic-5-to-0 sm 5 sg 1572864 st 0.2 am 6 ag 1048577 at 0.3 pe 3
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n tic-5-to-0 m 5 pe -1 cid 0
+
+E # 4 t 0.3 m 6 ce 3 msg 0
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[1]
+BS id 0 tid 0 eid 0 etid 0 c frame_BB n tic-5-to-0 m 6 pe 4
+SH sm 6 sg 1572865 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c frame_BB n tic-5-to-0 sm 6 sg 1572865 st 0.3 am 5 ag 1048576 at 0.4 pe 4
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n tic-5-to-0 m 6 pe -1 cid 0
+
+E # 5 t 0.4 m 5 ce 4 msg 0
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[0]
+BS id 0 tid 0 eid 0 etid 0 c frame_BB n tic-5-to-0 m 5 pe 5
+SH sm 5 sg 1572864 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c frame_BB n tic-5-to-0 sm 5 sg 1572864 st 0.4 am 6 ag 1048577 at 0.5 pe 5
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n tic-5-to-0 m 5 pe -1 cid 0
+
+E # 6 t 0.5 m 6 ce 5 msg 0
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[1]
+BS id 0 tid 0 eid 0 etid 0 c frame_BB n tic-5-to-0 m 6 pe 6
+SH sm 6 sg 1572865 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c frame_BB n tic-5-to-0 sm 6 sg 1572865 st 0.5 am 5 ag 1048576 at 0.6 pe 6
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n tic-5-to-0 m 6 pe -1 cid 0
+
+E # 7 t 0.6 m 5 ce 6 msg 0
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[0]
+BS id 0 tid 0 eid 0 etid 0 c frame_BB n tic-5-to-0 m 5 pe 7
+SH sm 5 sg 1572864 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c frame_BB n tic-5-to-0 sm 5 sg 1572864 st 0.6 am 6 ag 1048577 at 0.7 pe 7
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n tic-5-to-0 m 5 pe -1 cid 0
+
+E # 8 t 0.7 m 6 ce 7 msg 0
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[0]
+BS id 0 tid 0 eid 0 etid 0 c frame_BB n tic-5-to-0 m 6 pe 8
+SH sm 6 sg 1572864 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c frame_BB n tic-5-to-0 sm 6 sg 1572864 st 0.7 am 3 ag 1048578 at 0.8 pe 8
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n tic-5-to-0 m 6 pe -1 cid 0
+
+E # 9 t 0.8 m 3 ce 8 msg 0
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[2]
+BS id 0 tid 0 eid 0 etid 0 c frame_BB n tic-5-to-0 m 3 pe 9
+SH sm 3 sg 1572866 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c frame_BB n tic-5-to-0 sm 3 sg 1572866 st 0.8 am 6 ag 1048576 at 0.9 pe 9
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n tic-5-to-0 m 3 pe -1 cid 0
+
+E # 10 t 0.9 m 6 ce 9 msg 0
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[0]
+BS id 0 tid 0 eid 0 etid 0 c frame_BB n tic-5-to-0 m 6 pe 10
+SH sm 6 sg 1572864 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c frame_BB n tic-5-to-0 sm 6 sg 1572864 st 0.9 am 3 ag 1048578 at 1 pe 10
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n tic-5-to-0 m 6 pe -1 cid 0
+
+E # 11 t 1 m 3 ce 10 msg 0
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[0]
+BS id 0 tid 0 eid 0 etid 0 c frame_BB n tic-5-to-0 m 3 pe 11
+SH sm 3 sg 1572864 pd 0.1
+ES id 0 tid 0 eid 0 etid 0 c frame_BB n tic-5-to-0 sm 3 sg 1572864 st 1 am 2 ag 1048576 at 1.1 pe 11
+CL id 1 tid 0 eid 1 etid 0 c omnetpp::cMessage n tic-5-to-0 m 3 pe -1 cid 0
+
+E # 12 t 1.1 m 2 ce 11 msg 0
+- INFO: Message (frame_BB)tic-5-to-0  arrived after 11 hops.
+BU id 2 txt "ARRIVED, starting new one!"
+DM id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n tic-5-to-0 m 2 pe 12
+CM id 1 tid 1 eid 1 etid 1 c omnetpp::cMessage n tic-5-to-0 pe -1
+- INFO: Generating another message: (frame_BB)tic-5-to-0 (new msg)
+- INFO: Forwarding message (frame_BB)tic-5-to-0 (new msg) on gate[0]
+BS id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 m 2 pe 12
+SH sm 2 sg 1572864 pd 0.1
+ES id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 sm 2 sg 1572864 st 1.1 am 3 ag 1048576 at 1.2 pe 12
+CL id 2 tid 1 eid 2 etid 1 c omnetpp::cMessage n tic-5-to-0 m 2 pe -1 cid 1
+
+E # 13 t 1.2 m 3 ce 12 msg 1
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[2]
+BS id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 m 3 pe 13
+SH sm 3 sg 1572866 pd 0.1
+ES id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 sm 3 sg 1572866 st 1.2 am 6 ag 1048576 at 1.3 pe 13
+CL id 2 tid 1 eid 2 etid 1 c omnetpp::cMessage n tic-5-to-0 m 3 pe -1 cid 1
+
+E # 14 t 1.3 m 6 ce 13 msg 1
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[1]
+BS id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 m 6 pe 14
+SH sm 6 sg 1572865 pd 0.1
+ES id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 sm 6 sg 1572865 st 1.3 am 5 ag 1048576 at 1.4 pe 14
+CL id 2 tid 1 eid 2 etid 1 c omnetpp::cMessage n tic-5-to-0 m 6 pe -1 cid 1
+
+E # 15 t 1.4 m 5 ce 14 msg 1
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[0]
+BS id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 m 5 pe 15
+SH sm 5 sg 1572864 pd 0.1
+ES id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 sm 5 sg 1572864 st 1.4 am 6 ag 1048577 at 1.5 pe 15
+CL id 2 tid 1 eid 2 etid 1 c omnetpp::cMessage n tic-5-to-0 m 5 pe -1 cid 1
+
+E # 16 t 1.5 m 6 ce 15 msg 1
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[2]
+BS id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 m 6 pe 16
+SH sm 6 sg 1572866 pd 0.1
+ES id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 sm 6 sg 1572866 st 1.5 am 7 ag 1048576 at 1.6 pe 16
+CL id 2 tid 1 eid 2 etid 1 c omnetpp::cMessage n tic-5-to-0 m 6 pe -1 cid 1
+
+E # 17 t 1.6 m 7 ce 16 msg 1
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[0]
+BS id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 m 7 pe 17
+SH sm 7 sg 1572864 pd 0.1
+ES id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 sm 7 sg 1572864 st 1.6 am 6 ag 1048578 at 1.7 pe 17
+CL id 2 tid 1 eid 2 etid 1 c omnetpp::cMessage n tic-5-to-0 m 7 pe -1 cid 1
+
+E # 18 t 1.7 m 6 ce 17 msg 1
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[1]
+BS id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 m 6 pe 18
+SH sm 6 sg 1572865 pd 0.1
+ES id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 sm 6 sg 1572865 st 1.7 am 5 ag 1048576 at 1.8 pe 18
+CL id 2 tid 1 eid 2 etid 1 c omnetpp::cMessage n tic-5-to-0 m 6 pe -1 cid 1
+
+E # 19 t 1.8 m 5 ce 18 msg 1
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[0]
+BS id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 m 5 pe 19
+SH sm 5 sg 1572864 pd 0.1
+ES id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 sm 5 sg 1572864 st 1.8 am 6 ag 1048577 at 1.9 pe 19
+CL id 2 tid 1 eid 2 etid 1 c omnetpp::cMessage n tic-5-to-0 m 5 pe -1 cid 1
+
+E # 20 t 1.9 m 6 ce 19 msg 1
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[1]
+BS id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 m 6 pe 20
+SH sm 6 sg 1572865 pd 0.1
+ES id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 sm 6 sg 1572865 st 1.9 am 5 ag 1048576 at 2 pe 20
+CL id 2 tid 1 eid 2 etid 1 c omnetpp::cMessage n tic-5-to-0 m 6 pe -1 cid 1
+
+E # 21 t 2 m 5 ce 20 msg 1
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[0]
+BS id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 m 5 pe 21
+SH sm 5 sg 1572864 pd 0.1
+ES id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 sm 5 sg 1572864 st 2 am 6 ag 1048577 at 2.1 pe 21
+CL id 2 tid 1 eid 2 etid 1 c omnetpp::cMessage n tic-5-to-0 m 5 pe -1 cid 1
+
+E # 22 t 2.1 m 6 ce 21 msg 1
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[0]
+BS id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 m 6 pe 22
+SH sm 6 sg 1572864 pd 0.1
+ES id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 sm 6 sg 1572864 st 2.1 am 3 ag 1048578 at 2.2 pe 22
+CL id 2 tid 1 eid 2 etid 1 c omnetpp::cMessage n tic-5-to-0 m 6 pe -1 cid 1
+
+E # 23 t 2.2 m 3 ce 22 msg 1
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[1]
+BS id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 m 3 pe 23
+SH sm 3 sg 1572865 pd 0.1
+ES id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 sm 3 sg 1572865 st 2.2 am 4 ag 1048576 at 2.3 pe 23
+CL id 2 tid 1 eid 2 etid 1 c omnetpp::cMessage n tic-5-to-0 m 3 pe -1 cid 1
+
+E # 24 t 2.3 m 4 ce 23 msg 1
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[0]
+BS id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 m 4 pe 24
+SH sm 4 sg 1572864 pd 0.1
+ES id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 sm 4 sg 1572864 st 2.3 am 3 ag 1048577 at 2.4 pe 24
+CL id 2 tid 1 eid 2 etid 1 c omnetpp::cMessage n tic-5-to-0 m 4 pe -1 cid 1
+
+E # 25 t 2.4 m 3 ce 24 msg 1
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[0]
+BS id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 m 3 pe 25
+SH sm 3 sg 1572864 pd 0.1
+ES id 1 tid 1 eid 1 etid 1 c frame_BB n tic-5-to-0 sm 3 sg 1572864 st 2.4 am 2 ag 1048576 at 2.5 pe 25
+CL id 2 tid 1 eid 2 etid 1 c omnetpp::cMessage n tic-5-to-0 m 3 pe -1 cid 1
+
+E # 26 t 2.5 m 2 ce 25 msg 1
+- INFO: Message (frame_BB)tic-5-to-0  arrived after 14 hops.
+BU id 2 txt "ARRIVED, starting new one!"
+DM id 1 tid 1 eid 1 etid 1 c omnetpp::cMessage n tic-5-to-0 m 2 pe 26
+CM id 2 tid 2 eid 2 etid 2 c omnetpp::cMessage n tic-5-to-0 pe -1
+- INFO: Generating another message: (frame_BB)tic-5-to-0 (new msg)
+- INFO: Forwarding message (frame_BB)tic-5-to-0 (new msg) on gate[0]
+BS id 2 tid 2 eid 2 etid 2 c frame_BB n tic-5-to-0 m 2 pe 26
+SH sm 2 sg 1572864 pd 0.1
+ES id 2 tid 2 eid 2 etid 2 c frame_BB n tic-5-to-0 sm 2 sg 1572864 st 2.5 am 3 ag 1048576 at 2.6 pe 26
+CL id 3 tid 2 eid 3 etid 2 c omnetpp::cMessage n tic-5-to-0 m 2 pe -1 cid 2
+
+E # 27 t 2.6 m 3 ce 26 msg 2
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[1]
+BS id 2 tid 2 eid 2 etid 2 c frame_BB n tic-5-to-0 m 3 pe 27
+SH sm 3 sg 1572865 pd 0.1
+ES id 2 tid 2 eid 2 etid 2 c frame_BB n tic-5-to-0 sm 3 sg 1572865 st 2.6 am 4 ag 1048576 at 2.7 pe 27
+CL id 3 tid 2 eid 3 etid 2 c omnetpp::cMessage n tic-5-to-0 m 3 pe -1 cid 2
+
+E # 28 t 2.7 m 4 ce 27 msg 2
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[0]
+BS id 2 tid 2 eid 2 etid 2 c frame_BB n tic-5-to-0 m 4 pe 28
+SH sm 4 sg 1572864 pd 0.1
+ES id 2 tid 2 eid 2 etid 2 c frame_BB n tic-5-to-0 sm 4 sg 1572864 st 2.7 am 3 ag 1048577 at 2.8 pe 28
+CL id 3 tid 2 eid 3 etid 2 c omnetpp::cMessage n tic-5-to-0 m 4 pe -1 cid 2
+
+E # 29 t 2.8 m 3 ce 28 msg 2
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[0]
+BS id 2 tid 2 eid 2 etid 2 c frame_BB n tic-5-to-0 m 3 pe 29
+SH sm 3 sg 1572864 pd 0.1
+ES id 2 tid 2 eid 2 etid 2 c frame_BB n tic-5-to-0 sm 3 sg 1572864 st 2.8 am 2 ag 1048576 at 2.9 pe 29
+CL id 3 tid 2 eid 3 etid 2 c omnetpp::cMessage n tic-5-to-0 m 3 pe -1 cid 2
+
+E # 30 t 2.9 m 2 ce 29 msg 2
+- INFO: Message (frame_BB)tic-5-to-0  arrived after 4 hops.
+BU id 2 txt "ARRIVED, starting new one!"
+DM id 2 tid 2 eid 2 etid 2 c omnetpp::cMessage n tic-5-to-0 m 2 pe 30
+CM id 3 tid 3 eid 3 etid 3 c omnetpp::cMessage n tic-5-to-0 pe -1
+- INFO: Generating another message: (frame_BB)tic-5-to-0 (new msg)
+- INFO: Forwarding message (frame_BB)tic-5-to-0 (new msg) on gate[0]
+BS id 3 tid 3 eid 3 etid 3 c frame_BB n tic-5-to-0 m 2 pe 30
+SH sm 2 sg 1572864 pd 0.1
+ES id 3 tid 3 eid 3 etid 3 c frame_BB n tic-5-to-0 sm 2 sg 1572864 st 2.9 am 3 ag 1048576 at 3 pe 30
+CL id 4 tid 3 eid 4 etid 3 c omnetpp::cMessage n tic-5-to-0 m 2 pe -1 cid 3
+
+E # 31 t 3 m 3 ce 30 msg 3
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[0]
+BS id 3 tid 3 eid 3 etid 3 c frame_BB n tic-5-to-0 m 3 pe 31
+SH sm 3 sg 1572864 pd 0.1
+ES id 3 tid 3 eid 3 etid 3 c frame_BB n tic-5-to-0 sm 3 sg 1572864 st 3 am 2 ag 1048576 at 3.1 pe 31
+CL id 4 tid 3 eid 4 etid 3 c omnetpp::cMessage n tic-5-to-0 m 3 pe -1 cid 3
+
+E # 32 t 3.1 m 2 ce 31 msg 3
+- INFO: Message (frame_BB)tic-5-to-0  arrived after 2 hops.
+BU id 2 txt "ARRIVED, starting new one!"
+DM id 3 tid 3 eid 3 etid 3 c omnetpp::cMessage n tic-5-to-0 m 2 pe 32
+CM id 4 tid 4 eid 4 etid 4 c omnetpp::cMessage n tic-5-to-0 pe -1
+- INFO: Generating another message: (frame_BB)tic-5-to-0 (new msg)
+- INFO: Forwarding message (frame_BB)tic-5-to-0 (new msg) on gate[0]
+BS id 4 tid 4 eid 4 etid 4 c frame_BB n tic-5-to-0 m 2 pe 32
+SH sm 2 sg 1572864 pd 0.1
+ES id 4 tid 4 eid 4 etid 4 c frame_BB n tic-5-to-0 sm 2 sg 1572864 st 3.1 am 3 ag 1048576 at 3.2 pe 32
+CL id 5 tid 4 eid 5 etid 4 c omnetpp::cMessage n tic-5-to-0 m 2 pe -1 cid 4
+
+E # 33 t 3.2 m 3 ce 32 msg 4
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[1]
+BS id 4 tid 4 eid 4 etid 4 c frame_BB n tic-5-to-0 m 3 pe 33
+SH sm 3 sg 1572865 pd 0.1
+ES id 4 tid 4 eid 4 etid 4 c frame_BB n tic-5-to-0 sm 3 sg 1572865 st 3.2 am 4 ag 1048576 at 3.3 pe 33
+CL id 5 tid 4 eid 5 etid 4 c omnetpp::cMessage n tic-5-to-0 m 3 pe -1 cid 4
+
+E # 34 t 3.3 m 4 ce 33 msg 4
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[0]
+BS id 4 tid 4 eid 4 etid 4 c frame_BB n tic-5-to-0 m 4 pe 34
+SH sm 4 sg 1572864 pd 0.1
+ES id 4 tid 4 eid 4 etid 4 c frame_BB n tic-5-to-0 sm 4 sg 1572864 st 3.3 am 3 ag 1048577 at 3.4 pe 34
+CL id 5 tid 4 eid 5 etid 4 c omnetpp::cMessage n tic-5-to-0 m 4 pe -1 cid 4
+
+E # 35 t 3.4 m 3 ce 34 msg 4
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[2]
+BS id 4 tid 4 eid 4 etid 4 c frame_BB n tic-5-to-0 m 3 pe 35
+SH sm 3 sg 1572866 pd 0.1
+ES id 4 tid 4 eid 4 etid 4 c frame_BB n tic-5-to-0 sm 3 sg 1572866 st 3.4 am 6 ag 1048576 at 3.5 pe 35
+CL id 5 tid 4 eid 5 etid 4 c omnetpp::cMessage n tic-5-to-0 m 3 pe -1 cid 4
+
+E # 36 t 3.5 m 6 ce 35 msg 4
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[0]
+BS id 4 tid 4 eid 4 etid 4 c frame_BB n tic-5-to-0 m 6 pe 36
+SH sm 6 sg 1572864 pd 0.1
+ES id 4 tid 4 eid 4 etid 4 c frame_BB n tic-5-to-0 sm 6 sg 1572864 st 3.5 am 3 ag 1048578 at 3.6 pe 36
+CL id 5 tid 4 eid 5 etid 4 c omnetpp::cMessage n tic-5-to-0 m 6 pe -1 cid 4
+
+E # 37 t 3.6 m 3 ce 36 msg 4
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[1]
+BS id 4 tid 4 eid 4 etid 4 c frame_BB n tic-5-to-0 m 3 pe 37
+SH sm 3 sg 1572865 pd 0.1
+ES id 4 tid 4 eid 4 etid 4 c frame_BB n tic-5-to-0 sm 3 sg 1572865 st 3.6 am 4 ag 1048576 at 3.7 pe 37
+CL id 5 tid 4 eid 5 etid 4 c omnetpp::cMessage n tic-5-to-0 m 3 pe -1 cid 4
+
+E # 38 t 3.7 m 4 ce 37 msg 4
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[0]
+BS id 4 tid 4 eid 4 etid 4 c frame_BB n tic-5-to-0 m 4 pe 38
+SH sm 4 sg 1572864 pd 0.1
+ES id 4 tid 4 eid 4 etid 4 c frame_BB n tic-5-to-0 sm 4 sg 1572864 st 3.7 am 3 ag 1048577 at 3.8 pe 38
+CL id 5 tid 4 eid 5 etid 4 c omnetpp::cMessage n tic-5-to-0 m 4 pe -1 cid 4
+
+E # 39 t 3.8 m 3 ce 38 msg 4
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[1]
+BS id 4 tid 4 eid 4 etid 4 c frame_BB n tic-5-to-0 m 3 pe 39
+SH sm 3 sg 1572865 pd 0.1
+ES id 4 tid 4 eid 4 etid 4 c frame_BB n tic-5-to-0 sm 3 sg 1572865 st 3.8 am 4 ag 1048576 at 3.9 pe 39
+CL id 5 tid 4 eid 5 etid 4 c omnetpp::cMessage n tic-5-to-0 m 3 pe -1 cid 4
+
+E # 40 t 3.9 m 4 ce 39 msg 4
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[0]
+BS id 4 tid 4 eid 4 etid 4 c frame_BB n tic-5-to-0 m 4 pe 40
+SH sm 4 sg 1572864 pd 0.1
+ES id 4 tid 4 eid 4 etid 4 c frame_BB n tic-5-to-0 sm 4 sg 1572864 st 3.9 am 3 ag 1048577 at 4 pe 40
+CL id 5 tid 4 eid 5 etid 4 c omnetpp::cMessage n tic-5-to-0 m 4 pe -1 cid 4
+
+E # 41 t 4 m 3 ce 40 msg 4
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[0]
+BS id 4 tid 4 eid 4 etid 4 c frame_BB n tic-5-to-0 m 3 pe 41
+SH sm 3 sg 1572864 pd 0.1
+ES id 4 tid 4 eid 4 etid 4 c frame_BB n tic-5-to-0 sm 3 sg 1572864 st 4 am 2 ag 1048576 at 4.1 pe 41
+CL id 5 tid 4 eid 5 etid 4 c omnetpp::cMessage n tic-5-to-0 m 3 pe -1 cid 4
+
+E # 42 t 4.1 m 2 ce 41 msg 4
+- INFO: Message (frame_BB)tic-5-to-0  arrived after 10 hops.
+BU id 2 txt "ARRIVED, starting new one!"
+DM id 4 tid 4 eid 4 etid 4 c omnetpp::cMessage n tic-5-to-0 m 2 pe 42
+CM id 5 tid 5 eid 5 etid 5 c omnetpp::cMessage n tic-5-to-0 pe -1
+- INFO: Generating another message: (frame_BB)tic-5-to-0 (new msg)
+- INFO: Forwarding message (frame_BB)tic-5-to-0 (new msg) on gate[0]
+BS id 5 tid 5 eid 5 etid 5 c frame_BB n tic-5-to-0 m 2 pe 42
+SH sm 2 sg 1572864 pd 0.1
+ES id 5 tid 5 eid 5 etid 5 c frame_BB n tic-5-to-0 sm 2 sg 1572864 st 4.1 am 3 ag 1048576 at 4.2 pe 42
+CL id 6 tid 5 eid 6 etid 5 c omnetpp::cMessage n tic-5-to-0 m 2 pe -1 cid 5
+
+E # 43 t 4.2 m 3 ce 42 msg 5
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[2]
+BS id 5 tid 5 eid 5 etid 5 c frame_BB n tic-5-to-0 m 3 pe 43
+SH sm 3 sg 1572866 pd 0.1
+ES id 5 tid 5 eid 5 etid 5 c frame_BB n tic-5-to-0 sm 3 sg 1572866 st 4.2 am 6 ag 1048576 at 4.3 pe 43
+CL id 6 tid 5 eid 6 etid 5 c omnetpp::cMessage n tic-5-to-0 m 3 pe -1 cid 5
+
+E # 44 t 4.3 m 6 ce 43 msg 5
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[0]
+BS id 5 tid 5 eid 5 etid 5 c frame_BB n tic-5-to-0 m 6 pe 44
+SH sm 6 sg 1572864 pd 0.1
+ES id 5 tid 5 eid 5 etid 5 c frame_BB n tic-5-to-0 sm 6 sg 1572864 st 4.3 am 3 ag 1048578 at 4.4 pe 44
+CL id 6 tid 5 eid 6 etid 5 c omnetpp::cMessage n tic-5-to-0 m 6 pe -1 cid 5
+
+E # 45 t 4.4 m 3 ce 44 msg 5
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[2]
+BS id 5 tid 5 eid 5 etid 5 c frame_BB n tic-5-to-0 m 3 pe 45
+SH sm 3 sg 1572866 pd 0.1
+ES id 5 tid 5 eid 5 etid 5 c frame_BB n tic-5-to-0 sm 3 sg 1572866 st 4.4 am 6 ag 1048576 at 4.5 pe 45
+CL id 6 tid 5 eid 6 etid 5 c omnetpp::cMessage n tic-5-to-0 m 3 pe -1 cid 5
+
+E # 46 t 4.5 m 6 ce 45 msg 5
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[2]
+BS id 5 tid 5 eid 5 etid 5 c frame_BB n tic-5-to-0 m 6 pe 46
+SH sm 6 sg 1572866 pd 0.1
+ES id 5 tid 5 eid 5 etid 5 c frame_BB n tic-5-to-0 sm 6 sg 1572866 st 4.5 am 7 ag 1048576 at 4.6 pe 46
+CL id 6 tid 5 eid 6 etid 5 c omnetpp::cMessage n tic-5-to-0 m 6 pe -1 cid 5
+
+E # 47 t 4.6 m 7 ce 46 msg 5
+- INFO: Forwarding message (frame_BB)tic-5-to-0  on gate[3]
+BS id 5 tid 5 eid 5 etid 5 c frame_BB n tic-5-to-0 m 7 pe 47
+SH sm 7 sg 1572867 pd 0.1
+ES id 5 tid 5 eid 5 etid 5 c frame_BB n tic-5-to-0 sm 7 sg 1572867 st 4.6 am 10 ag 1048576 at 4.7 pe 47
+CL id 6 tid 5 eid 6 etid 5 c omnetpp::cMessage n tic-5-to-0 m 7 pe -1 cid 5
+
+SE e 0 c -1 m ""

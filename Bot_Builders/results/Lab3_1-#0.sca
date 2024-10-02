@@ -1,0 +1,73 @@
+version 3
+run Lab3_1-0-20240917-15:38:24-10188
+attr configname Lab3_1
+attr datetime 20240917-15:38:24
+attr datetimef 20240917-153824
+attr experiment Lab3_1
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Bot_Builders_net3
+attr processid 10188
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network Bot_Builders_net3
+config record-eventlog true
+config *.C213019.limit 2
+config *.C213004.limit 5
+config *.C213029.limit 7
+config *.Dummy1.limit 6
+config *.Dummy2.limit 4
+
+par Bot_Builders_net3.C213019.out.channel typename "\"ned.DelayChannel\""
+par Bot_Builders_net3.C213019.out.channel disabled false
+attr mutable ""
+par Bot_Builders_net3.C213019.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net3.C213029.out.channel typename "\"ned.DelayChannel\""
+par Bot_Builders_net3.C213029.out.channel disabled false
+attr mutable ""
+par Bot_Builders_net3.C213029.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net3.C213004.out.channel typename "\"ned.DelayChannel\""
+par Bot_Builders_net3.C213004.out.channel disabled false
+attr mutable ""
+par Bot_Builders_net3.C213004.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net3.Dummy1.out.channel typename "\"ned.DelayChannel\""
+par Bot_Builders_net3.Dummy1.out.channel disabled false
+attr mutable ""
+par Bot_Builders_net3.Dummy1.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net3.Dummy2.out.channel typename "\"ned.DelayChannel\""
+par Bot_Builders_net3.Dummy2.out.channel disabled false
+attr mutable ""
+par Bot_Builders_net3.Dummy2.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net3.C213019 typename "\"Bot_Builders_node3\""
+par Bot_Builders_net3.C213019 sendMsgOnInit true
+par Bot_Builders_net3.C213019 limit 2
+par Bot_Builders_net3.C213029 typename "\"Bot_Builders_node3\""
+par Bot_Builders_net3.C213029 sendMsgOnInit false
+par Bot_Builders_net3.C213029 limit 7
+par Bot_Builders_net3.C213004 typename "\"Bot_Builders_node3\""
+par Bot_Builders_net3.C213004 sendMsgOnInit false
+par Bot_Builders_net3.C213004 limit 5
+par Bot_Builders_net3.Dummy1 typename "\"Bot_Builders_node3\""
+par Bot_Builders_net3.Dummy1 sendMsgOnInit false
+par Bot_Builders_net3.Dummy1 limit 6
+par Bot_Builders_net3.Dummy2 typename "\"Bot_Builders_node3\""
+par Bot_Builders_net3.Dummy2 sendMsgOnInit false
+par Bot_Builders_net3.Dummy2 limit 4
+par Bot_Builders_net3 typename "\"Bot_Builders_net3\""
+

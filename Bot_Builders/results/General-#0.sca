@@ -1,0 +1,44 @@
+version 3
+run General-0-20240917-14:24:24-6992
+attr configname General
+attr datetime 20240917-14:24:24
+attr datetimef 20240917-142424
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Bot_Builders_net3
+attr processid 6992
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network Bot_Builders_net3
+config record-eventlog true
+
+par Bot_Builders_net3.C213019.out.channel typename "\"ned.DelayChannel\""
+par Bot_Builders_net3.C213019.out.channel disabled false
+attr mutable ""
+par Bot_Builders_net3.C213019.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net3.C213029.out.channel typename "\"ned.DelayChannel\""
+par Bot_Builders_net3.C213029.out.channel disabled false
+attr mutable ""
+par Bot_Builders_net3.C213029.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net3.C213004.out.channel typename "\"ned.DelayChannel\""
+par Bot_Builders_net3.C213004.out.channel disabled false
+attr mutable ""
+par Bot_Builders_net3.C213004.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par Bot_Builders_net3.C213019 typename "\"Bot_Builders_node\""
+par Bot_Builders_net3.C213029 typename "\"Bot_Builders_node\""
+par Bot_Builders_net3.C213004 typename "\"Bot_Builders_node\""
+par Bot_Builders_net3 typename "\"Bot_Builders_net3\""
+
