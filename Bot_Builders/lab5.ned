@@ -27,7 +27,7 @@ simple Bot_Builders_node5
 {
     parameters:
         bool sendMsgOnInit = default(false); // whether the module should send out a message on initialization
-        int limit = default(2);   // another parameter with a default value
+        int limit = default(1);   // another parameter with a default value
         int source = default(0);
         int destination = default(5);
         @display("i=block/routing");
@@ -41,14 +41,14 @@ simple Bot_Builders_node5
 //
 network Bot_Builders_net5
 {
-    @display("bgb=615,604");
+    @display("bgb=586.74,545.592");
     types:
         channel Channel extends ned.DelayChannel
         {
             delay = 100ms;
         }
     submodules:
-        node_Bot_Builders[10]: Bot_Builders_node4 {
+        node_Bot_Builders[10]: Bot_Builders_node5 {
             @display("i=abstract/router");
         }
     connections:
@@ -59,7 +59,7 @@ network Bot_Builders_net5
         node_Bot_Builders[4].gate++ <--> Channel <--> node_Bot_Builders[5].gate++;
 
         node_Bot_Builders[5].gate++ <--> Channel <--> node_Bot_Builders[6].gate++;
-		node_Bot_Builders[5].gate++ <--> Channel <--> node_Bot_Builders[7].gate++;
+        node_Bot_Builders[5].gate++ <--> Channel <--> node_Bot_Builders[7].gate++;
         node_Bot_Builders[5].gate++ <--> Channel <--> node_Bot_Builders[8].gate++;
         node_Bot_Builders[8].gate++ <--> Channel <--> node_Bot_Builders[9].gate++;
 }
