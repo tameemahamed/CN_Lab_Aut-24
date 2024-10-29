@@ -132,6 +132,8 @@ class Bot_Builders_node7 : public cSimpleModule
     int messagesReceived;
     simsignal_t sentSignal;
     simsignal_t receivedSignal;
+    cOutVector hopcntvec;
+    cOutVector msgarrivalvec;
 
   protected:
     virtual void initialize() override;
@@ -150,6 +152,8 @@ void Bot_Builders_node7::initialize()
     dst = par("destination");
     messagesSent = 0;
     messagesReceived = 0;
+    hopcntvec.setName("HopCount");
+    msgarrivalvec.setName("MessageArrivals");
 
     // Register signals for statistics
     sentSignal = registerSignal("messagesSent");
@@ -179,6 +183,10 @@ void Bot_Builders_node7::handleMessage(cMessage *msg)
             emit(receivedSignal, messagesReceived); // Emit the received signal
             EV << "Message " << ttmsg << " arrived after " << ttmsg->getHopCount() << " hops.\n";
             bubble("ARRIVED, starting new one!");
+
+            hopcntvec.record(ttmsg->getHopCount());
+            msgarrivalvec.record(1);
+
             delete ttmsg;
 
             // Generate another one if necessary...
